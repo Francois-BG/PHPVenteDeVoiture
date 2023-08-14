@@ -1,0 +1,305 @@
+.Connexion{
+    margin-left: 35%;
+    width: 50%;
+}
+body {
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-image: linear-gradient(to right top, #721f4e, #884c75, #9e759a, #b59fbb, #d1c8da, #d4d1e4, #d7dbed, #dae4f5, #b2d3eb, #81c4da, #4bb5bf, #06a49a);
+    /* background-image: linear-gradient(to right top, #2a1521, #4c3b47, #70646f, #979099, #c1bec4, #d1cdd7, #e0dceb, #eeecff, #e0deff, #d0d0ff, #c0c2ff, #aeb5ff); */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* height: 100vh; */
+    animation: gradient 1s ease infinite;
+    
+}
+
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 90vh;
+    /* margin-top: 1%; */
+    /* box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19); */
+    border-radius: 1px;
+    
+    
+}
+
+.ListeClient{
+    display: block;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19); */
+    height: 90vh;
+    width: 150vh;
+    
+ 
+
+}
+.Client{
+    display: block;
+    padding: 0.5%;
+    padding-left: 0%;
+    margin-left: 5%;
+}
+.AjoutClient{
+    display: block;
+    padding-top:11%;
+    padding-bottom:10%;
+    padding-left: 10%;
+    margin-left: 5%; 
+    margin-bottom: 10%;
+    max-width: 500px;  
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+    border: solid;
+    border-color: transparent;
+    border-radius: 50px;
+}
+#Add_client{
+ margin-left: 25%;
+ margin-bottom: 10%;   
+}
+img{
+    margin-top: 7%;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+}
+.FormModifClient{
+    padding-top:11%;
+    padding-bottom:10%;
+    padding-left: 10%;
+    margin-top:0%;
+    margin-left: 25%; 
+    margin-bottom: 10%;
+    min-width: 500px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+    border: solid;
+    border-color: transparent;
+    border-radius: 50px;
+}
+
+.Pagination{
+    text-decoration: none;
+}
+
+.RECHERCHE{
+    margin-left: 40%;
+    display: inline-flex;
+    height: 5vh;
+}
+.recherche{
+    display: inline-flex;
+    margin-left: -5%;
+}
+.actualiser{
+    margin-left: 5%;
+    display: inline-flex;
+    
+}
+#actualiser{
+    margin-top: 5%;
+    border-radius:500px;
+}
+#actualiser:hover{
+    margin-top: 5%;
+    border-radius:500px;
+    animation: spin 1s linear infinite;
+}
+#selection{
+    margin-left: -20%;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+.erreur{
+    margin-right: 13%;
+}
+.Erreur{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.login{
+    background-image: linear-gradient(to right top, #721f4e, #884c75, #9e759a, #b59fbb, #d1c8da, #d4d1e4, #d7dbed, #dae4f5, #b2d3eb, #81c4da, #4bb5bf, #06a49a);
+    padding-top: 10%;
+    margin-left: 15%;
+    border-radius: 80px;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: gradient 1s ease infinite;
+}
+.form_login{
+    margin-left: 0%;
+    border-radius:20px;
+    
+}
+.card-header{
+    position: relative;
+    margin-left: 37%;
+    background: none;
+    font-family: 'Segoe UI';
+}
+.Titre_login{
+    align-items: center;
+    justify-content: center;
+    margin-top: -22%;
+    margin-bottom: 1%;
+    margin-left: 39%;
+    padding-top: 0%;
+    font-size: 50px;
+    font-family: 'Segoe UI Black';
+}
+.Gestion{
+    height: 20%;
+}
+.Gest{
+    margin-left: 20%;
+}
+.Titre{
+    font-family: 'Segoe UI Black';
+    
+}
+.GEST{
+    animation: blink 4s linear infinite;
+    
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.GestionLogo{
+    margin-top: -6%;
+    margin-left: 7%;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+    transform: rotate(0deg);
+    animation: tilt 2s linear infinite;
+
+
+}
+@keyframes tilt {
+    0% { transform: rotate(-10deg); }
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(-10deg); }
+  }
+.NAV{
+    border-top-right-radius:75px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+}
+#form{
+    margin-top: 20%;
+    width: 110vh;
+}
+.Aperçu{
+    margin-left: 15%;
+    width: 50vh;
+}
+.facture{
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+}
+#edition{
+    margin-top: -20%;
+}
+.Histo_circ{
+    margin-top: -4%;
+    margin-left: 20%;
+    height: 70vh;
+    width: 75vh;
+}
+.Tab_histo{
+    margin-left: 70%;
+    margin-top: -8.5%;
+}
+
+/*-------------------------------------------------Button-----------------------------------------------*/
+.SuppCli:hover{
+
+  position: relative;
+  top: 0;
+  animation: move 0.5s linear infinite;
+}
+.Supp:hover{
+    position: relative;
+    top: 0;
+    animation: move 0.5s linear infinite;
+}
+.icon{
+    position: relative;
+    top: 0;
+    animation: move 0.5s linear infinite;
+}
+.Modif:hover{
+    position: relative;
+    top: 0;
+    animation: move 0.5s linear infinite;
+}
+.ModifCli:hover{
+    position: relative;
+    top: 0;
+    animation: move 0.5s linear infinite;
+}
+@keyframes move {
+    0% { top: 0; }
+    50% { top: 4px; }
+    100% { top: 0; }
+  }
+.Print{
+    margin-left: 90%;
+    position: relative;
+    top: 0;
+    animation: move 0.5s linear infinite;
+  }
+/*------------------------------------------------Modal---------------------------------------------------------------*/
+.MODAL{
+    background-image: linear-gradient();  
+    width: 85vh;
+    animation: gradient 1s ease infinite;
+    animation: border-animation 5s infinite;
+}
+@keyframes border-animation {
+    0% {
+      border-radius: 10px;
+    }
+    50% {
+      border-radius: 30px;
+    }
+    100% {
+      border-radius: 10px;
+    }
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+}
